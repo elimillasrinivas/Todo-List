@@ -13,9 +13,9 @@ addButton.addEventListener("click", () => {
   
 
   // create p element add id = todo-text
-  const todoText = document.createElement("p");
+  const todoText = document.createElement("li");
   todoText.id = "todo-text";
-  todoText.innerHTML = textInputField.value;
+  todoText.innerText= textInputField.value;
   todoItemContainer.appendChild(todoText);
 
   // add double click to todoText
