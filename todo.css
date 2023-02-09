@@ -54,9 +54,7 @@ h2 {
     border: 1px solid rgb(139, 136, 136);
 }
 
-.todos-container{
-   overflow-y: scroll;
-}
+
 
 .todo-item-container {
     display: flex;
